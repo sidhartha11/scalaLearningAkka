@@ -11,7 +11,9 @@ import org.apache.commons.vfs2.Selectors
 import org.apache.commons.vfs2.FileObject
 import java.io.InputStream
 import scala.io.Source
-
+/**
+ * https://www.mysamplecode.com/2013/06/sftp-apache-commons-file-download.html
+ */
 object TestSftp extends App {
   def getProperties (propfile: String): InputStream = {
     println("loading properties " + propfile)
