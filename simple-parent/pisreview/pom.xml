@@ -9,21 +9,12 @@
     <artifactId>simple-parent</artifactId>
     <version>0.8-SNAPSHOT</version>
   </parent>
-  <artifactId>common</artifactId>
+  <artifactId>pisreview</artifactId>
   
   <packaging>jar</packaging>
 
-  <name>common</name>
+  <name>pisreview</name>
   	<dependencies>
-  	
-<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-vfs2 -->
-<dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-vfs2</artifactId>
-    <version>2.0</version>
-</dependency>
-
-  	
 
 		<!-- ############################### Scala Libraries ####################################### -->
 <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-remote -->

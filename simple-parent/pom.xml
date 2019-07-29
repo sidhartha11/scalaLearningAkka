@@ -24,6 +24,7 @@
 	<modules>
 		<module>chapter-05</module>
 		<module>common</module>
+		<module>pisreview</module>
 	</modules>
 
 	<dependencies>
